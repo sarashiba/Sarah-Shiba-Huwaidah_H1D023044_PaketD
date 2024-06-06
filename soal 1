@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+//Deklarasi struktur KHS
+typedef struct khs*alamat;
+struct khs{
+    int NIM;
+    float IP;
+};
+
+//fungsi update IP mahasiswa
+void updateIp(float IP){
+    if 
+}
+
+
+//fungsi cetak KHS
+void printKHS(alamat*p){
+
+}
+
+//main program
+int main(){
+
+//cetak KHS sebelum perubahan
+printf("Sebelum IP diperbarui:\n");
+printKHS(&p);
+
+return 0;
+}
